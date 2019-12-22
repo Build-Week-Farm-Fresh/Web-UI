@@ -1,1 +1,67 @@
 //NAVIGATION
+.nav-container {
+  width: 100%;
+  margin: 0 auto;
+  height: 205px;
+  background-color: #fff;
+  border-bottom: 3px solid @border;
+  display: flex;
+}
+
+.button-wrap {
+  width: 100%;
+  text-align: right;
+  margin-right: 25px;
+
+  .login {
+    .btn-style(
+      150px,
+      @btn-height,
+      #eefcdd,
+      @btn-font,
+      @btn-fs,
+      none,
+      @radius,
+      @font-color,
+      @font-weight
+    );
+  }
+
+  .sign-up {
+    .btn-style(
+      150px,
+      @btn-height,
+      @btn-bg,
+      @btn-font,
+      @btn-fs,
+      @btn-border,
+      @radius,
+      @font-color,
+      @font-weight
+    );
+  }
+}
+
+.logo-wrap {
+  width: 50%;
+  padding-left: 150px;
+}
+
+.nav-wrap {
+  width: 49%;
+  display: flex;
+  flex-flow: row wrap;
+
+  align-items: flex-end;
+  justify-content: flex-end;
+
+  padding-right: 20px;
+
+  a {
+    text-decoration: none;
+    color: @primary;
+    font-size: 2.5rem;
+    display: flex;
+    padding: 0 30px;
+  }
+}
