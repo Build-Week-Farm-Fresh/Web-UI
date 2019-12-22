@@ -14,13 +14,11 @@
   h1 {
     padding-top: 50px;
     font-size: 7rem;
-    color: rgb(37, 37, 37);
   }
 
   h2 {
     padding-top: 50px;
     padding-bottom: 50px;
-    color: rgb(37, 37, 37);
     font-weight: bold;
     font-size: 3rem;
   }
@@ -42,4 +40,49 @@
 .highlights-container {
   height: 250px;
   background-color: #f5f0e0;
+  .border-style();
+
+  .highlight-txt-wrap {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0 auto;
+  }
+
+  .left {
+    width: 30%;
+    margin-top: 50px;
+    text-align: center;
+    border: 3px solid #9f937d;
+    background-color: #c5bba5;
+
+    h2 {
+      margin-top: 20px;
+    }
+
+    p {
+      padding-top: 10px;
+      font-size: 2.3rem;
+      padding: 0 10px;
+    }
+  }
+
+  .right {
+    width: 30%;
+    margin-top: 50px;
+    text-align: center;
+    border: 3px solid #9f937d;
+    background-color: #c5bba5;
+
+    h2 {
+      padding-bottom: 20px;
+    }
+
+    p {
+      margin-top: 20px;
+      margin-bottom: 10px;
+      padding-top: 10px;
+      font-size: 2.3rem;
+      padding: 0 10px;
+    }
+  }
 }

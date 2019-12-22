@@ -142,6 +142,7 @@ h3,
 h4,
 h5 {
   font-family: "Oswald", cursive;
+  color: #252525;
 }
 h1 {
   font-size: 4rem;
@@ -158,6 +159,7 @@ p {
   line-height: 1.5;
   font-size: 1.6rem;
   padding-bottom: 10px;
+  color: #252525;
 }
 img {
   max-width: 100%;
@@ -234,12 +236,10 @@ img {
 .hero-container h1 {
   padding-top: 50px;
   font-size: 7rem;
-  color: #252525;
 }
 .hero-container h2 {
   padding-top: 50px;
   padding-bottom: 50px;
-  color: #252525;
   font-weight: bold;
   font-size: 3rem;
 }
@@ -258,4 +258,42 @@ img {
 .highlights-container {
   height: 250px;
   background-color: #f5f0e0;
+  border-top: 3px solid #9f937d;
+}
+.highlights-container .highlight-txt-wrap {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 0 auto;
+}
+.highlights-container .left {
+  width: 30%;
+  margin-top: 50px;
+  text-align: center;
+  border: 3px solid #9f937d;
+  background-color: #c5bba5;
+}
+.highlights-container .left h2 {
+  margin-top: 20px;
+}
+.highlights-container .left p {
+  padding-top: 10px;
+  font-size: 2.3rem;
+  padding: 0 10px;
+}
+.highlights-container .right {
+  width: 30%;
+  margin-top: 50px;
+  text-align: center;
+  border: 3px solid #9f937d;
+  background-color: #c5bba5;
+}
+.highlights-container .right h2 {
+  padding-bottom: 20px;
+}
+.highlights-container .right p {
+  margin-top: 20px;
+  margin-bottom: 10px;
+  padding-top: 10px;
+  font-size: 2.3rem;
+  padding: 0 10px;
 }
