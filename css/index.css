@@ -263,7 +263,7 @@ img {
   font-weight: bold;
 }
 .highlights-container {
-  height: 250px;
+  height: 500px;
   background-color: #f5f0e0;
   border-top: 3px solid #9f937d;
 }
@@ -307,7 +307,7 @@ img {
   padding: 0 10px;
 }
 .highlights-container .highlight-icons-wrap {
-  height: 300px;
+  height: 200px;
   background-color: #f5f0e0;
   display: flex;
 }
@@ -330,10 +330,63 @@ img {
   width: 33%;
   text-align: center;
 }
+.decorative-break {
+  height: 50px;
+}
+.decorative-break .break1 {
+  height: 25px;
+  background-color: #4c3218;
+}
+.decorative-break .break2 {
+  height: 50px;
+  background: #88775b;
+}
+.decorative-break .break2 p {
+  text-align: center;
+  font-size: 1.5rem;
+}
+.decorative-break .break2 span {
+  padding: 0 20px;
+}
 .banner-img {
   width: 100%;
-  height: 300px;
-  background: linear-gradient(180deg, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.5)), url("/img/carrots.webp");
+  height: 500px;
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.5)), url("/img/crops.webp");
   background-repeat: none;
   background-size: cover;
+  background-position: center;
+  border-bottom: #4c3218;
+  border-top: #4c3218;
+  position: relative;
+}
+.banner-img .hero-two {
+  text-align: center;
+  position: absolute;
+  top: 70%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.banner-img .hero-two h2 {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  font-weight: bold;
+  font-size: 3rem;
+  color: white;
+  text-shadow: 0px 2px 1px rgba(0, 0, 0, 0.05);
+  letter-spacing: 1.1pt;
+  line-height: 1.3;
+}
+footer {
+  height: 500px;
+  width: 100%;
+}
+footer .social-media {
+  height: 75px;
+  background-color: #88775b;
+  text-align: center;
+}
+footer .social-media p {
+  font-size: 1.5rem;
+  padding-top: 5px;
+  color: white;
 }
