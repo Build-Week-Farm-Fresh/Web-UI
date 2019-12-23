@@ -167,6 +167,7 @@ img {
 }
 .container {
   width: 100%;
+  height: 100%;
 }
 .nav-container {
   width: 100%;
@@ -271,7 +272,7 @@ img {
   justify-content: space-evenly;
   margin: 0 auto;
 }
-.highlights-container .left {
+.highlights-container .highlight-txt-wrap .left {
   width: 30%;
   margin-top: 25px;
   text-align: center;
@@ -279,15 +280,15 @@ img {
   background-color: #c5bba5;
   border-radius: 20px;
 }
-.highlights-container .left h2 {
+.highlights-container .highlight-txt-wrap .left h2 {
   margin-top: 20px;
 }
-.highlights-container .left p {
+.highlights-container .highlight-txt-wrap .left p {
   padding-top: 10px;
   font-size: 2.3rem;
   padding: 0 10px;
 }
-.highlights-container .right {
+.highlights-container .highlight-txt-wrap .right {
   width: 30%;
   margin-top: 25px;
   text-align: center;
@@ -295,10 +296,10 @@ img {
   background-color: #c5bba5;
   border-radius: 20px;
 }
-.highlights-container .right h2 {
+.highlights-container .highlight-txt-wrap .right h2 {
   padding-bottom: 20px;
 }
-.highlights-container .right p {
+.highlights-container .highlight-txt-wrap .right p {
   margin-top: 20px;
   margin-bottom: 10px;
   padding-top: 10px;
@@ -306,7 +307,7 @@ img {
   padding: 0 10px;
 }
 .highlights-container .highlight-icons-wrap {
-  height: 250px;
+  height: 300px;
   background-color: #f5f0e0;
   display: flex;
 }
@@ -314,28 +315,25 @@ img {
   font-size: 2rem;
   padding-top: 5px;
 }
-.highlights-container .recycle {
-  padding-top: 100px;
+.highlights-container .highlight-icons-wrap .recycle {
+  padding-top: 50px;
   width: 33%;
   text-align: center;
 }
-.highlights-container .veggies {
-  padding-top: 100px;
+.highlights-container .highlight-icons-wrap .veggies {
+  padding-top: 50px;
   width: 33%;
   text-align: center;
 }
-.highlights-container .calendar {
-  padding-top: 100px;
+.highlights-container .highlight-icons-wrap .calendar {
+  padding-top: 50px;
   width: 33%;
   text-align: center;
 }
-.decorative-break {
-  height: 200px;
-}
-.decorative-break .break1 {
-  height: 50px;
-  background-color: grey;
-}
-.decorative-break .break2 {
-  background-color: black;
+.banner-img {
+  width: 100%;
+  height: 300px;
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.5)), url("/img/carrots.webp");
+  background-repeat: none;
+  background-size: cover;
 }
