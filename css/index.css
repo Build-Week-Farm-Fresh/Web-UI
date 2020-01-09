@@ -252,6 +252,9 @@ img {
   padding: 0 30px;
   padding-bottom: 40px;
 }
+.nav-wrap a:hover {
+  color: #252525;
+}
 footer {
   height: 300px;
   width: 100%;
@@ -281,6 +284,9 @@ footer .footer-main-wrap a {
   text-decoration: none;
   font-size: 1.5rem;
   color: #9f937d;
+}
+footer .footer-main-wrap a:hover {
+  color: #252525;
 }
 .copyright {
   border-top: 1px solid #4c3218;
