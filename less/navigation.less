@@ -31,6 +31,19 @@
       @font-color,
       @font-weight
     );
+    @media @tablet {
+      .btn-style(
+        150px,
+        @btn-height,
+        #eefcdd,
+        @btn-font,
+        1.5rem,
+        none,
+        @radius,
+        @font-color,
+        @font-weight
+      );
+    }
   }
   .login:hover {
     .btn-style(
@@ -44,6 +57,19 @@
       #509c26,
       @font-weight
     );
+    @media @tablet {
+      .btn-style(
+        150px,
+        @btn-height,
+        #eefcdd,
+        @btn-font,
+        1.5rem,
+        none,
+        @radius,
+        #509c26,
+        @font-weight
+      );
+    }
   }
 
   .sign-up {
@@ -58,6 +84,19 @@
       @font-color,
       @font-weight
     );
+    @media @tablet {
+      .btn-style(
+        150px,
+        @btn-height,
+        @btn-bg,
+        @btn-font,
+        1.5rem,
+        none,
+        @radius,
+        @font-color,
+        @font-weight
+      );
+    }
   }
   .sign-up:hover {
     .btn-style(
@@ -71,6 +110,19 @@
       @hero-font-color,
       @font-weight
     );
+    @media @tablet {
+      .btn-style(
+        150px,
+        @btn-height,
+        @btn-bg,
+        @btn-font,
+        1.5rem,
+        none,
+        @radius,
+        @hero-font-color,
+        @font-weight
+      );
+    }
   }
 }
 
@@ -83,19 +135,22 @@
   width: 49%;
   display: flex;
   flex-flow: row wrap;
-
   align-items: flex-end;
   justify-content: flex-end;
-
   padding-right: 20px;
 
   a {
     text-decoration: none;
     color: @primary;
-    font-size: 2.5rem;
+    font-size: 2.3rem;
     display: flex;
-    padding: 0 30px;
+    padding: 0 22px;
     padding-bottom: 40px;
+    @media @tablet {
+      font-size: 2rem;
+      padding: 0px 10px;
+      padding-bottom: 50px;
+    }
   }
 
   a:hover {
