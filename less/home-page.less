@@ -338,14 +338,10 @@
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
+  @media @mobile {
+    height: 100%;
+  }
 
-  // &::after {
-  //   content: "";
-  //   width: 100%;
-  //   height: 500px;
-  //   position: absolute;
-  //   background: linear-gradient(90deg, transparent, rgba(0, 0, 0, 1));
-  // }
   .services-hero-content {
     text-align: center;
   }
@@ -358,6 +354,11 @@
     @media @tablet {
       padding-top: 80px;
       font-size: 5rem;
+    }
+    @media @mobile {
+      padding-top: 80px;
+      font-size: 3rem;
+      margin: 0 auto;
     }
   }
 
@@ -384,9 +385,16 @@
     text-shadow: 0px 2px 1px rgba(0, 0, 0, 0.05);
     letter-spacing: 1.5pt;
     line-height: 1.3;
+    @media @mobile {
+      font-size: 1.8rem;
+      letter-spacing: 1.8pt;
+    }
   }
 
   button {
+    @media @mobile {
+      margin-bottom: 15px;
+    }
     .btn-style(
       @btn-width,
       @btn-height,
@@ -405,6 +413,19 @@
         @btn-bg,
         @btn-font,
         1.5rem,
+        @btn-border,
+        @radius,
+        @font-color,
+        @font-weight
+      );
+    }
+    @media @mobile {
+      .btn-style(
+        150px,
+        @btn-height,
+        @btn-bg,
+        @btn-font,
+        1rem,
         @btn-border,
         @radius,
         @font-color,
@@ -437,6 +458,19 @@
         @font-weight
       );
     }
+    @media @mobile {
+      .btn-style(
+        150px,
+        @btn-height,
+        #509c26,
+        @btn-font,
+        1rem,
+        #509c26,
+        @radius,
+        @hero-font-color,
+        @font-weight
+      );
+    }
   }
 }
 
@@ -445,6 +479,9 @@
   margin-bottom: 30px;
   background-color: @alternate;
   .border-style();
+  @media @mobile {
+    margin-bottom: 0px;
+  }
 }
 
 .img-wrap {
@@ -543,6 +580,12 @@
       left: 50%;
       transform: translate(-50%, -50%);
     }
+    @media @mobile {
+      height: 200px;
+      top: 45%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
 
     h2 {
       padding-top: 25px;
@@ -583,6 +626,19 @@
           @font-weight
         );
       }
+      @media @mobile {
+        .btn-style(
+          150px,
+          @btn-height,
+          @btn-bg,
+          @btn-font,
+          1rem,
+          @btn-border,
+          @radius,
+          @font-color,
+          @font-weight
+        );
+      }
     }
 
     button:hover {
@@ -604,6 +660,19 @@
           #509c26,
           @btn-font,
           1.5rem,
+          #509c26,
+          @radius,
+          @hero-font-color,
+          @font-weight
+        );
+      }
+      @media @mobile {
+        .btn-style(
+          150px,
+          @btn-height,
+          #509c26,
+          @btn-font,
+          1rem,
           #509c26,
           @radius,
           @hero-font-color,
