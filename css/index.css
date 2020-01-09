@@ -459,6 +459,12 @@ footer .footer-main-wrap a:hover {
     font-size: 5rem;
   }
 }
+@media (max-width: 500px) {
+  .hero-container h1 {
+    padding-top: 90px;
+    font-size: 3rem;
+  }
+}
 .hero-container h2 {
   padding-top: 25px;
   padding-bottom: 35px;
@@ -472,6 +478,11 @@ footer .footer-main-wrap a:hover {
 @media (max-width: 1000px) {
   .hero-container h2 {
     font-size: 2.5rem;
+  }
+}
+@media (max-width: 1000px) {
+  .hero-container h2 {
+    font-size: 2rem;
   }
 }
 .hero-container button {
@@ -492,6 +503,19 @@ footer .footer-main-wrap a:hover {
     background-color: #9ce077;
     font-family: "Fira Sans";
     font-size: 1.5rem;
+    border: 1px solid #9ce077;
+    border-radius: 50px;
+    color: #252525;
+    font-weight: bold;
+  }
+}
+@media (max-width: 500px) {
+  .hero-container button {
+    width: 150px;
+    height: 35px;
+    background-color: #9ce077;
+    font-family: "Fira Sans";
+    font-size: 1rem;
     border: 1px solid #9ce077;
     border-radius: 50px;
     color: #252525;
@@ -522,6 +546,19 @@ footer .footer-main-wrap a:hover {
     font-weight: bold;
   }
 }
+@media (max-width: 500px) {
+  .hero-container button:hover {
+    width: 150px;
+    height: 35px;
+    background-color: #509c26;
+    font-family: "Fira Sans";
+    font-size: 1rem;
+    border: #509c26;
+    border-radius: 50px;
+    color: #fff6eb;
+    font-weight: bold;
+  }
+}
 .highlights-container {
   height: 100%;
   background-color: #f5f0e0;
@@ -531,6 +568,11 @@ footer .footer-main-wrap a:hover {
   display: flex;
   justify-content: space-evenly;
   margin: 0 auto;
+}
+@media (max-width: 500px) {
+  .highlights-container .highlight-txt-wrap {
+    flex-direction: column;
+  }
 }
 .highlights-container .highlight-txt-wrap .left {
   width: 30%;
@@ -545,12 +587,24 @@ footer .footer-main-wrap a:hover {
     width: 40%;
   }
 }
+@media (max-width: 500px) {
+  .highlights-container .highlight-txt-wrap .left {
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 10px;
+  }
+}
 .highlights-container .highlight-txt-wrap .left h2 {
   margin-top: 20px;
 }
 @media (max-width: 1000px) {
   .highlights-container .highlight-txt-wrap .left h2 {
     font-size: 2.4rem;
+  }
+}
+@media (max-width: 500px) {
+  .highlights-container .highlight-txt-wrap .left h2 {
+    font-size: 2rem;
   }
 }
 .highlights-container .highlight-txt-wrap .left p {
@@ -561,6 +615,11 @@ footer .footer-main-wrap a:hover {
 @media (max-width: 1000px) {
   .highlights-container .highlight-txt-wrap .left p {
     font-size: 1.8rem;
+  }
+}
+@media (max-width: 500px) {
+  .highlights-container .highlight-txt-wrap .left p {
+    font-size: 1.5rem;
   }
 }
 .highlights-container .highlight-txt-wrap .right {
@@ -576,12 +635,24 @@ footer .footer-main-wrap a:hover {
     width: 40%;
   }
 }
+@media (max-width: 500px) {
+  .highlights-container .highlight-txt-wrap .right {
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 10px;
+  }
+}
 .highlights-container .highlight-txt-wrap .right h2 {
   padding-bottom: 20px;
 }
 @media (max-width: 1000px) {
   .highlights-container .highlight-txt-wrap .right h2 {
     font-size: 2.4rem;
+  }
+}
+@media (max-width: 500px) {
+  .highlights-container .highlight-txt-wrap .right h2 {
+    font-size: 2rem;
   }
 }
 .highlights-container .highlight-txt-wrap .right p {
@@ -594,6 +665,11 @@ footer .footer-main-wrap a:hover {
 @media (max-width: 1000px) {
   .highlights-container .highlight-txt-wrap .right p {
     font-size: 1.8rem;
+  }
+}
+@media (max-width: 500px) {
+  .highlights-container .highlight-txt-wrap .right p {
+    font-size: 1.5rem;
   }
 }
 .highlights-container .highlight-icons-wrap {
@@ -611,6 +687,13 @@ footer .footer-main-wrap a:hover {
     padding-top: 2px;
   }
 }
+@media (max-width: 500px) {
+  .highlights-container .highlight-icons-wrap p {
+    font-size: 1.2rem;
+    padding-top: 1px;
+    margin: 0 5px;
+  }
+}
 .highlights-container .highlight-icons-wrap .recycle {
   padding-top: 50px;
   width: 33.3%;
@@ -622,6 +705,14 @@ footer .footer-main-wrap a:hover {
     width: 100%;
     text-align: center;
     padding-top: 50px;
+  }
+}
+@media (max-width: 500px) {
+  .highlights-container .highlight-icons-wrap .recycle {
+    padding-top: 0px;
+    width: 100%;
+    text-align: center;
+    padding-top: 25px;
   }
 }
 .highlights-container .highlight-icons-wrap .veggies {
@@ -637,6 +728,14 @@ footer .footer-main-wrap a:hover {
     padding-top: 50px;
   }
 }
+@media (max-width: 500px) {
+  .highlights-container .highlight-icons-wrap .veggies {
+    padding-top: 0px;
+    width: 100%;
+    text-align: center;
+    padding-top: 25px;
+  }
+}
 .highlights-container .highlight-icons-wrap .calendar {
   padding-top: 50px;
   width: 33.3%;
@@ -648,6 +747,14 @@ footer .footer-main-wrap a:hover {
     width: 100%;
     text-align: center;
     padding-top: 50px;
+  }
+}
+@media (max-width: 500px) {
+  .highlights-container .highlight-icons-wrap .calendar {
+    padding-top: 0px;
+    width: 100%;
+    text-align: center;
+    padding-top: 25px;
   }
 }
 .decorative-break {
@@ -699,6 +806,14 @@ footer .footer-main-wrap a:hover {
     transform: translate(-50%, -50%);
   }
 }
+@media (max-width: 500px) {
+  .banner-img .hero-two {
+    height: 250px;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+}
 .banner-img .hero-two h2 {
   padding-bottom: 50px;
   font-weight: bold;
@@ -711,6 +826,11 @@ footer .footer-main-wrap a:hover {
 @media (max-width: 1000px) {
   .banner-img .hero-two h2 {
     font-size: 2.4rem;
+  }
+}
+@media (max-width: 500px) {
+  .banner-img .hero-two h2 {
+    font-size: 2rem;
   }
 }
 .banner-img .hero-two button {
@@ -737,6 +857,19 @@ footer .footer-main-wrap a:hover {
     font-weight: bold;
   }
 }
+@media (max-width: 500px) {
+  .banner-img .hero-two button {
+    width: 150px;
+    height: 35px;
+    background-color: #9ce077;
+    font-family: "Fira Sans";
+    font-size: 1rem;
+    border: 1px solid #9ce077;
+    border-radius: 50px;
+    color: #252525;
+    font-weight: bold;
+  }
+}
 .banner-img .hero-two button:hover {
   width: 250px;
   height: 35px;
@@ -750,11 +883,24 @@ footer .footer-main-wrap a:hover {
 }
 @media (max-width: 1000px) {
   .banner-img .hero-two button:hover {
-    width: 200px;
+    width: 150px;
     height: 35px;
     background-color: #509c26;
     font-family: "Fira Sans";
-    font-size: 1.5rem;
+    font-size: 1rem;
+    border: #509c26;
+    border-radius: 50px;
+    color: #fff6eb;
+    font-weight: bold;
+  }
+}
+@media (max-width: 500px) {
+  .banner-img .hero-two button:hover {
+    width: 150px;
+    height: 35px;
+    background-color: #509c26;
+    font-family: "Fira Sans";
+    font-size: 1rem;
     border: #509c26;
     border-radius: 50px;
     color: #fff6eb;
