@@ -10,6 +10,30 @@
   color: @font-color;
   font-weight: @font-weight;
 }
+// mobile styling for buttons
+.btn-mobile-style(@m-width, @m-fs) {
+  width: @m-width;
+  font-size: @m-fs;
+}
+// tablet styling for buttons
+.btn-tablet-style(@tab-width, @tab-fs) {
+  width: @tab-width;
+  font-size: @tab-fs;
+}
+// mobile styling for button hovers
+.btn-mobile-hover(@m-width, @m-bgcolor, @m-fs, @m-border) {
+  width: @m-width;
+  background-color: @m-bgcolor;
+  font-size: @m-fs;
+  border: @m-border;
+}
+// tablet styling for button hovers
+.btn-tablet-hover(@tab-width, @tab-bgcolor, @tab-fs, @tab-border) {
+  width: @tab-width;
+  background-color: @tab-bgcolor;
+  font-size: @tab-fs;
+  border: @tab-border;
+}
 
 .border-style() {
   border-top: 3px solid #9f937d;

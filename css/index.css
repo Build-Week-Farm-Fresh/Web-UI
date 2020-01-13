@@ -499,27 +499,13 @@ footer .footer-main-wrap a:hover {
 @media (max-width: 1000px) {
   .hero-container button {
     width: 200px;
-    height: 35px;
-    background-color: #9ce077;
-    font-family: "Fira Sans";
     font-size: 1.5rem;
-    border: 1px solid #9ce077;
-    border-radius: 50px;
-    color: #252525;
-    font-weight: bold;
   }
 }
 @media (max-width: 500px) {
   .hero-container button {
     width: 150px;
-    height: 35px;
-    background-color: #9ce077;
-    font-family: "Fira Sans";
     font-size: 1rem;
-    border: 1px solid #9ce077;
-    border-radius: 50px;
-    color: #252525;
-    font-weight: bold;
   }
 }
 .hero-container button:hover {
@@ -536,27 +522,17 @@ footer .footer-main-wrap a:hover {
 @media (max-width: 1000px) {
   .hero-container button:hover {
     width: 200px;
-    height: 35px;
     background-color: #509c26;
-    font-family: "Fira Sans";
     font-size: 1.5rem;
     border: #509c26;
-    border-radius: 50px;
-    color: #fff6eb;
-    font-weight: bold;
   }
 }
 @media (max-width: 500px) {
   .hero-container button:hover {
     width: 150px;
-    height: 35px;
     background-color: #509c26;
-    font-family: "Fira Sans";
     font-size: 1rem;
-    border: #509c26;
-    border-radius: 50px;
-    color: #fff6eb;
-    font-weight: bold;
+    border: 1px solid #509c26;
   }
 }
 .highlights-container {
@@ -847,27 +823,13 @@ footer .footer-main-wrap a:hover {
 @media (max-width: 1000px) {
   .banner-img .hero-two button {
     width: 200px;
-    height: 35px;
-    background-color: #9ce077;
-    font-family: "Fira Sans";
     font-size: 1.5rem;
-    border: 1px solid #9ce077;
-    border-radius: 50px;
-    color: #252525;
-    font-weight: bold;
   }
 }
 @media (max-width: 500px) {
   .banner-img .hero-two button {
     width: 150px;
-    height: 35px;
-    background-color: #9ce077;
-    font-family: "Fira Sans";
     font-size: 1rem;
-    border: 1px solid #9ce077;
-    border-radius: 50px;
-    color: #252525;
-    font-weight: bold;
   }
 }
 .banner-img .hero-two button:hover {
@@ -883,28 +845,18 @@ footer .footer-main-wrap a:hover {
 }
 @media (max-width: 1000px) {
   .banner-img .hero-two button:hover {
-    width: 150px;
-    height: 35px;
+    width: 200px;
     background-color: #509c26;
-    font-family: "Fira Sans";
-    font-size: 1rem;
+    font-size: 1.5rem;
     border: #509c26;
-    border-radius: 50px;
-    color: #fff6eb;
-    font-weight: bold;
   }
 }
 @media (max-width: 500px) {
   .banner-img .hero-two button:hover {
     width: 150px;
-    height: 35px;
     background-color: #509c26;
-    font-family: "Fira Sans";
     font-size: 1rem;
-    border: #509c26;
-    border-radius: 50px;
-    color: #fff6eb;
-    font-weight: bold;
+    border: 1px solid #509c26;
   }
 }
 .services-hero-container {
@@ -993,27 +945,13 @@ footer .footer-main-wrap a:hover {
 @media (max-width: 1000px) {
   .services-hero-container button {
     width: 200px;
-    height: 35px;
-    background-color: #9ce077;
-    font-family: "Fira Sans";
     font-size: 1.5rem;
-    border: 1px solid #9ce077;
-    border-radius: 50px;
-    color: #252525;
-    font-weight: bold;
   }
 }
 @media (max-width: 500px) {
   .services-hero-container button {
     width: 150px;
-    height: 35px;
-    background-color: #9ce077;
-    font-family: "Fira Sans";
     font-size: 1rem;
-    border: 1px solid #9ce077;
-    border-radius: 50px;
-    color: #252525;
-    font-weight: bold;
   }
 }
 .services-hero-container button:hover {
@@ -1030,38 +968,28 @@ footer .footer-main-wrap a:hover {
 @media (max-width: 1000px) {
   .services-hero-container button:hover {
     width: 200px;
-    height: 35px;
     background-color: #509c26;
-    font-family: "Fira Sans";
     font-size: 1.5rem;
     border: #509c26;
-    border-radius: 50px;
-    color: #fff6eb;
-    font-weight: bold;
   }
 }
 @media (max-width: 500px) {
   .services-hero-container button:hover {
     width: 150px;
-    height: 35px;
     background-color: #509c26;
-    font-family: "Fira Sans";
     font-size: 1rem;
-    border: #509c26;
-    border-radius: 50px;
-    color: #fff6eb;
-    font-weight: bold;
+    border: 1px solid #509c26;
   }
 }
 .gallery {
   height: 100%;
-  margin-bottom: 30px;
   background-color: #f5f0e0;
+  padding-bottom: 50px;
   border-top: 3px solid #9f937d;
 }
-@media (max-width: 500px) {
+@media (max-width: 1000px) {
   .gallery {
-    margin-bottom: 0px;
+    padding-bottom: 10px;
   }
 }
 .img-wrap {
@@ -1197,27 +1125,13 @@ footer .footer-main-wrap a:hover {
 @media (max-width: 1000px) {
   .services-banner-img .services-hero-two button {
     width: 200px;
-    height: 35px;
-    background-color: #9ce077;
-    font-family: "Fira Sans";
     font-size: 1.5rem;
-    border: 1px solid #9ce077;
-    border-radius: 50px;
-    color: #252525;
-    font-weight: bold;
   }
 }
 @media (max-width: 500px) {
   .services-banner-img .services-hero-two button {
     width: 150px;
-    height: 35px;
-    background-color: #9ce077;
-    font-family: "Fira Sans";
     font-size: 1rem;
-    border: 1px solid #9ce077;
-    border-radius: 50px;
-    color: #252525;
-    font-weight: bold;
   }
 }
 .services-banner-img .services-hero-two button:hover {
@@ -1234,26 +1148,16 @@ footer .footer-main-wrap a:hover {
 @media (max-width: 1000px) {
   .services-banner-img .services-hero-two button:hover {
     width: 200px;
-    height: 35px;
     background-color: #509c26;
-    font-family: "Fira Sans";
     font-size: 1.5rem;
     border: #509c26;
-    border-radius: 50px;
-    color: #fff6eb;
-    font-weight: bold;
   }
 }
 @media (max-width: 500px) {
   .services-banner-img .services-hero-two button:hover {
     width: 150px;
-    height: 35px;
     background-color: #509c26;
-    font-family: "Fira Sans";
     font-size: 1rem;
-    border: #509c26;
-    border-radius: 50px;
-    color: #fff6eb;
-    font-weight: bold;
+    border: 1px solid #509c26;
   }
 }
